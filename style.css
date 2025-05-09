@@ -1,10 +1,64 @@
-/* style.css */
-body {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 50px;
-  background-color: #f0f0f0;
 }
-h1 {
+body {
+  background-color: #f5f5f5;
   color: #333;
+  line-height: 1.6;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 2rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #444;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.skills ul,
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+.skills li,
+.projects li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-left: 5px solid #007BFF;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
